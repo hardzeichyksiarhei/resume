@@ -616,7 +616,7 @@
                 <div id="feedback-form" class="feedback-form">
                     <h3>GET IN TOUCH</h3>
 
-                    <form id="contactForm">
+                    <form id="contactForm" action="https://formspree.io/hardzeichyksiarhei@gmail.com" method="POST">
                         <div class="form-group">
                             <input id="name" type="text" name="name" required="" class="form-control"
                                    placeholder="Full Name">
@@ -633,6 +633,8 @@
                             <textarea id="message" class="form-control" rows="4" required="" name="message"
                                       placeholder="Write message"></textarea>
                         </div>
+
+                        <input type="text" name="_gotcha" style="display:none" />
 
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>

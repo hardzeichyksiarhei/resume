@@ -25,7 +25,7 @@ jQuery(function ($) {
 	// Send Form
   // --------------------------------------------------------------------
   
-  var $contactForm = $('#feedback-form');
+ /*  var $contactForm = $('#feedback-form');
 
   $contactForm.on('submit', function(e) {
 		e.preventDefault();
@@ -76,7 +76,7 @@ jQuery(function ($) {
       }
 		});		
 		
-	});
+	}); */
 
 
 }); // JQuery end
