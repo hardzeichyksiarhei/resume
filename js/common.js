@@ -43,16 +43,11 @@ jQuery(function ($) {
 		
 		//send to formspree
 		$.ajax({
-			url:'https://formspree.io/hardzeichyksiarhei@gmail.com',
+			url:'https://www.enformed.io/pd8gspyf/',
 			method: 'POST',
-			data:{
-				name: name,
-				_replyto: email,
-        email: email,
-        message: message,
-				_subject: subject,
-			},
+			data: $contactForm.serialize(),
       dataType: 'json',
+      accepts: 'application/json',
       beforeSend: function() {
         $contactForm.find('button[type="submit"]').text('Sending...');
       },
